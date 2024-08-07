@@ -32,6 +32,6 @@ def process_poems(input_folder, output_file):
     with open(output_file, "w", encoding='utf-8') as f:
         f.write("\n\n".join(merged_poems))
 
-input_folder = '/home/nrdc/Downloads/ganjoor-tex-master/txt/abusaeed/robaeeat/'
-output_file = '/home/nrdc/Downloads/ganjoor-tex-master/poems.txt'
+input_folder ="./ganjoor-tex-master/txt/abusaeed/robaeeat/'
+output_file = './ganjoor-tex-master/poems.txt'
 process_poems(input_folder, output_file)
